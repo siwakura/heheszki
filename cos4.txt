@@ -15,9 +15,7 @@ int main(int argc, char **argv)
        << silnia_rekurencyjna(n)  
        << endl << endl;  
   
-  system("Pause");  
-  return 0;  
-}  
+
   
   
 int silnia_rekurencyjna(int n){  

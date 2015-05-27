@@ -1,7 +1,7 @@
     #include <iostream.h>  
     #include <stdlib.h>  
       
-      
+      CO TO JEST W OGOLE
     float potega_rekurencyjna(int n, float x);  
       
     int main(int argc, char **argv)  
@@ -28,7 +28,7 @@
     }  
       
       
-    float potega_rekurencyjna(int n, float x){  
+    float potega_rekurencyjna(int n, float x){  <<<-------  NO CHYBA NIE
       float rob;  
       
       if (n == 0)  
