@@ -28,7 +28,7 @@
     }  
       
       
-    float potega_rekurencyjna(int n, float x){  
+    float potega_rekurencyjna(int n, float x){  <<<-------  NO CHYBA NIE
       float rob;  
       
       if (n == 0)  
