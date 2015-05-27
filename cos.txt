@@ -1,0 +1,38 @@
+    #include <iostream.h>  
+    #include <stdlib.h>  
+      
+      
+    float potega_iteracyjna(int n, float x);  
+      
+    int main(int argc, char **argv)  
+    {  
+      int n;  
+      float x;  
+      
+      
+      cout << "\nProgram zawiera implementacje funkcji POTEGA-ITERACYJNA\n\n";  
+      
+      
+      cout << "wyladnik potegi n=";  
+      cin >> n;  
+      
+      cout << "podstawa potegi x=";  
+      cin >> x;  
+      
+      cout << "\n\nLiczba " << x << " po podniesieniu do potegi "  
+           << n << " daje " << potega_iteracyjna(n,x)  
+           << endl << endl;  
+      
+      system("Pause");  
+      return 0;  
+    }  
+      
+      
+    float potega_iteracyjna(int n, float x){  
+      int i;  
+      float wynik=1;  
+      
+      for(i=1;i<=n;i++)  
+        wynik *= x;  
+      return wynik;  
+    }  

@@ -1,0 +1,41 @@
+    #include <iostream.h>  
+    #include <stdlib.h>  
+      
+      
+    float potega_rekurencyjna(int n, float x);  
+      
+    int main(int argc, char **argv)  
+    {  
+      int n;  
+      float x;  
+      
+      
+      cout << "\nProgram zawiera implementacje funkcji POTEGA-REKURENCYJNA\n\n";  
+      
+      
+      cout << "wyladnik potegi n=";  
+      cin >> n;  
+      
+      cout << "podstawa potegi x=";  
+      cin >> x;  
+      
+      cout << "\n\nLiczba " << x << " po podniesieniu do potegi "  
+           << n << " daje " << potega_rekurencyjna(n,x)  
+           << endl << endl;  
+      
+      system("Pause");  
+      return 0;  
+    }  
+      
+      
+    float potega_rekurencyjna(int n, float x){  
+      float rob;  
+      
+      if (n == 0)  
+        return 1;  
+      else  
+        {  
+          rob = potega_rekurencyjna( n - 1 , x );  
+          return rob * x;  
+        }  
+    }  
