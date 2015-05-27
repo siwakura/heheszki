@@ -14,10 +14,9 @@
       cout << "n=";  
       cin >> n;  
       
-      cout << "\n\n" << n << "! = "  
+      cout << "\n\n" << n << "! = "  blablabla
            << silnia_rekurencyjna(n)  
-           << endl << endl;  
-      
+           
       system("Pause");  
       return 0;  
     }  
