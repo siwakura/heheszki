@@ -2,12 +2,14 @@
 #include <stdlib.h>  
   
 int main(int argc, char **argv)  
+
+JESTEM SZALONA, MOWIE CI!!!
 {  
   int n;    
   
   
   
-  dupadupa
+  
   cout << "n=";  
   cin >> n;  
   
@@ -25,4 +27,3 @@ int silnia_rekurencyjna(int n){
     return 1;  
   else  
     return n * silnia_rekurencyjna(n-1);  
-fhdhf
