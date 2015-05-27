@@ -1,0 +1,37 @@
+    //ZADANIE 12.4.1.b  
+      
+    #include <iostream.h>  
+      
+    int *UstalInt(void){  
+      int *tmp = new int;  
+      cout << "  liczba = ";  
+      cin >> *tmp;  
+      return tmp;  
+    };  
+      
+    int main(int argc
+      int *wsk[10];  
+      
+      
+      //Alokacja  
+      for(int i=0;i<10;i++)  
+        wsk[i] = new int;  
+      
+      //Wczytanie  
+      for(int i=0;i<10;i++)  
+        wsk[i] = UstalInt();  
+      
+      cout << "\n##############################\n";  
+      
+      //Wydruk  
+      for(int i=0;i<10;i++){  
+        cout << "liczba nr " << i << " = " << *wsk[i] << endl;  
+      }  
+      
+      //Zwolnienie pamieci  
+      for(int i=0;i<10;i++)  
+        delete wsk[i];  
+      
+      system("Pause");  
+      return 0;  
+    }  
