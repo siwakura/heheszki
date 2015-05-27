@@ -25,3 +25,4 @@ int silnia_rekurencyjna(int n){
     return 1;  
   else  
     return n * silnia_rekurencyjna(n-1);  
+fhdhf
