@@ -1,20 +1,17 @@
 #include <iostream.h>  
 #include <stdlib.h>  
   
-  
-int silnia_rekurencyjna(int n);  
-  
 int main(int argc, char **argv)  
 {  
   int n;    
   
-  cout << "\nProgram zawiera implementacje funkcji SILNIA-REKURENCYJNA\n\n";  
+  
   
   
   cout << "n=";  
   cin >> n;  
   
-  cout << "\n\n" << n << "! = "  
+  cout << "\n\n" << n << "! = "  gfgf
        << silnia_rekurencyjna(n)  
        << endl << endl;  
   
